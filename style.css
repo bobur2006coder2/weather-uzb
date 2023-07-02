@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://source.unsplash.com/1600x900/?tashkent");
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.card-container{
+    background-color: rgba(23, 68, 68, 0.5);
+    height: 350px;
+    border-radius: 15px;
+    color: white;
+  
+}
+
+.graf{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+
+.grab{
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+}
+
+.card-top{
+    text-align: left;
+    /* margin-top: 25px; */
+}
+
+@media (max-width:576px) {
+    .oclock-value{
+        font-size: 17px;
+    }
+    body{
+        height: 100vh;
+    }
+}
